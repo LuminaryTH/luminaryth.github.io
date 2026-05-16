@@ -551,7 +551,7 @@
     z-index: 1;
     max-width: 900px;
     margin: 0 auto;
-    padding: 100px 24px;
+    padding: 60px 24px;
   }
   .section-header {
     margin-bottom: 48px;
@@ -724,7 +724,7 @@
   /* ===== SKILLS ===== */
   .skills-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
     gap: 16px;
   }
   .skill-card {
@@ -1240,13 +1240,6 @@
   <h1 class="hero-name" data-i18n="hero_name">杨天豪</h1>
   <div class="hero-alias" data-i18n="hero_alias">@那不勒斯的萤火</div>
   <p class="hero-tagline" data-i18n="hero_tagline">哈尔滨工业大学 · 计算机技术硕士</p>
-  <div class="hero-tags">
-    <span class="hero-tag" data-i18n="hero_tag1">🧠 深度学习</span>
-    <span class="hero-tag">🐍 Python</span>
-    <span class="hero-tag">🔥 PyTorch</span>
-    <span class="hero-tag" data-i18n="hero_tag4">📊 数据分析</span>
-    <span class="hero-tag" data-i18n="hero_tag5">🧮 数学建模</span>
-  </div>
   <div class="hero-tags" style="margin-top:12px">
     <span class="hero-tag" data-i18n="hero_tag6">🎓 学业奖学金</span>
     <span class="hero-tag">📝 CET6</span>
@@ -1350,6 +1343,7 @@
     <div class="skill-card">
       <div class="skill-category" data-i18n="skill_cat2">深度学习框架</div>
       <div class="skill-tags">
+        <span class="skill-tag tool" data-i18n="skill_dl">深度学习</span>
         <span class="skill-tag tool">PyTorch</span>
         <span class="skill-tag tool">TensorFlow</span>
         <span class="skill-tag tool">Gradio</span>
@@ -1358,6 +1352,7 @@
     <div class="skill-card">
       <div class="skill-category" data-i18n="skill_cat3">数据处理与可视化</div>
       <div class="skill-tags">
+        <span class="skill-tag data" data-i18n="skill_da">数据分析</span>
         <span class="skill-tag data">NumPy</span>
         <span class="skill-tag data">Pandas</span>
         <span class="skill-tag data">Matplotlib</span>
@@ -1542,6 +1537,14 @@
       <div class="award-icon">🏆</div>
       <div class="award-text" data-i18n="award10">ACM 国际大学生程序设计竞赛 · <strong>校级三等奖</strong></div>
     </div>
+    <div class="award-item">
+      <div class="award-icon">🏅</div>
+      <div class="award-text" data-i18n="award11">科创文体奖学金</div>
+    </div>
+    <div class="award-item">
+      <div class="award-icon">🏅</div>
+      <div class="award-text" data-i18n="award12">优秀共青团员</div>
+    </div>
   </div>
 </section>
 
@@ -1643,6 +1646,10 @@
     award8: '第十四届 Mathorcup 数学建模竞赛 · <strong>省级三等奖</strong>',
     award9: '互联网+大学生创新创业大赛 · <strong>校级一等奖</strong>',
     award10: 'ACM 国际大学生程序设计竞赛 · <strong>校级三等奖</strong>',
+    award11: '科创文体奖学金',
+    award12: '优秀共青团员',
+    skill_dl: '深度学习',
+    skill_da: '数据分析',
     contact_title: '联系我',
     contact_email_label: '邮箱',
     footer_quote: '"每一只萤火虫，都是黑夜里不灭的微光。"',
@@ -1697,6 +1704,10 @@
     award8: '14th Mathorcup Mathematical Modeling · <strong>Provincial 3rd Prize</strong>',
     award9: 'Internet+ Innovation & Entrepreneurship · <strong>University 1st Prize</strong>',
     award10: 'ACM ICPC · <strong>University 3rd Prize</strong>',
+    award11: 'Science & Innovation Scholarship',
+    award12: 'Outstanding Communist Youth League Member',
+    skill_dl: 'Deep Learning',
+    skill_da: 'Data Analysis',
     contact_title: 'Get In Touch',
     contact_email_label: 'Email',
     footer_quote: '"Every firefly is an inextinguishable glimmer in the dark."',
