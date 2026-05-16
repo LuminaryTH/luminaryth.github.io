@@ -514,7 +514,7 @@
   }
   .hero-scroll {
     position: absolute;
-    bottom: 40px;
+    bottom: 20px;
     animation: fadeSlideUp 1s ease-out 1s both;
   }
   .hero-scroll a {
@@ -1385,59 +1385,21 @@
   <div class="reveal">
     <div class="project-card">
       <div class="project-cover">
-        <img src="assets/proj1-cover.jpg" alt="虚拟试穿系统">
-      </div>
-      <div class="project-header">
-        <div class="project-icon icon-violet">👗</div>
-        <div class="project-header-text">
-          <div class="project-title" data-i18n="proj1_title">基于深度学习的智能试衣系统</div>
-          <div class="project-date">PYTHON · PYTORCH · GRADIO · VITON-HD · DRESSCODE</div>
-        </div>
-      </div>
-      <div class="project-body">
-        <div class="project-desc" data-i18n="proj1_desc">针对传统虚拟试衣技术的颜色失真、自我遮挡生成效果差等问题，基于 Python 开发轻量化智能试衣系统。整合 ATR 与 LIP 模型完成人体解析，结合 OpenPose 检测 17 个骨架关键点，搭建 VITON-HD 与 DressCode 双生成模型。</div>
-        <div class="project-metrics">
-          <div class="metric-badge">
-            <span class="metric-value">&lt;2min</span>
-            <span class="metric-label" data-i18n="proj1_m1">推理时间</span>
-          </div>
-          <div class="metric-badge badge-green">
-            <span class="metric-value">4GB</span>
-            <span class="metric-label" data-i18n="proj1_m2">最低显存</span>
-          </div>
-          <div class="metric-badge badge-teal">
-            <span class="metric-value">17</span>
-            <span class="metric-label" data-i18n="proj1_m3">关键点检测</span>
-          </div>
-        </div>
-      </div>
-      <div class="project-footer">
-        <div class="project-highlights">
-          <span class="highlight" data-i18n="proj1_h1">扩散模型</span>
-          <span class="highlight teal" data-i18n="proj1_h2">人体姿态估计</span>
-          <span class="highlight green" data-i18n="proj1_h3">模型量化</span>
-          <span class="highlight" data-i18n="proj1_h4">流场增强自注意力</span>
-          <span class="highlight teal">Gradio UI</span>
-        </div>
-      </div>
-    </div>
-    <div class="project-card">
-      <div class="project-cover">
-        <img src="assets/proj2-cover.jpg" alt="花卉分类">
+        <img src="assets/proj1-cover.jpg" alt="花卉分类">
       </div>
       <div class="project-header">
         <div class="project-icon icon-green">🌸</div>
         <div class="project-header-text">
-          <div class="project-title" data-i18n="proj2_title">基于卷积神经网络的花卉图像分类</div>
+          <div class="project-title" data-i18n="proj1_title">基于卷积神经网络的花卉图像分类</div>
           <div class="project-date">2024.08 · PYTHON · PYTORCH · RESNET</div>
         </div>
       </div>
       <div class="project-body">
-        <div class="project-desc" data-i18n="proj2_desc">针对多类别花卉图像数据集，采用随机旋转、CutMix 等数据增强技术，扩充数据集规模达 50%。对比 ResNet18、AlexNet 等经典及自研模型，运用半监督学习使训练效率提高 30%，借助 Grad-CAM 可视化分析模型决策依据。</div>
+        <div class="project-desc" data-i18n="proj1_desc">针对多类别花卉图像数据集，采用随机旋转、CutMix 等数据增强技术，扩充数据集规模达 50%。对比 ResNet18、AlexNet 等经典及自研模型，运用半监督学习使训练效率提高 30%，借助 Grad-CAM 可视化分析模型决策依据。</div>
         <div class="project-metrics">
           <div class="metric-badge">
             <span class="metric-value">92%</span>
-            <span class="metric-label" data-i18n="proj2_m1">分类准确率</span>
+            <span class="metric-label" data-i18n="proj1_m1">分类准确率</span>
           </div>
           <div class="metric-badge badge-teal">
             <span class="metric-value">91</span>
@@ -1445,50 +1407,88 @@
           </div>
           <div class="metric-badge badge-green">
             <span class="metric-value">+30%</span>
-            <span class="metric-label" data-i18n="proj2_m3">训练效率</span>
+            <span class="metric-label" data-i18n="proj1_m3">训练效率</span>
           </div>
         </div>
       </div>
       <div class="project-footer">
         <div class="project-highlights">
           <span class="highlight">CNN</span>
-          <span class="highlight green" data-i18n="proj2_h2">数据增强</span>
-          <span class="highlight teal" data-i18n="proj2_h3">半监督学习</span>
+          <span class="highlight green" data-i18n="proj1_h2">数据增强</span>
+          <span class="highlight teal" data-i18n="proj1_h3">半监督学习</span>
           <span class="highlight">Grad-CAM</span>
         </div>
       </div>
     </div>
     <div class="project-card">
       <div class="project-cover">
-        <img src="assets/proj3-cover.jpg" alt="天气预测">
+        <img src="assets/proj2-cover.jpg" alt="天气预测">
       </div>
       <div class="project-header">
         <div class="project-icon icon-blue">🌦️</div>
         <div class="project-header-text">
-          <div class="project-title" data-i18n="proj3_title">基于 PCA 主成分分析的天气情况预测</div>
+          <div class="project-title" data-i18n="proj2_title">基于 PCA 主成分分析的天气情况预测</div>
           <div class="project-date">PYTHON · PCA · FULLY-CONNECTED NN</div>
         </div>
       </div>
       <div class="project-body">
-        <div class="project-desc" data-i18n="proj3_desc">从海量天气数据中运用 PCA 主成分分析进行降维，通过相关性分析筛选关键特征，有效降低数据维度。构建全连接神经网络模型，采用均方误差损失函数和随机梯度下降优化器，通过损失曲线监控训练效果。</div>
+        <div class="project-desc" data-i18n="proj2_desc">从海量天气数据中运用 PCA 主成分分析进行降维，通过相关性分析筛选关键特征，有效降低数据维度。构建全连接神经网络模型，采用均方误差损失函数和随机梯度下降优化器，通过损失曲线监控训练效果。</div>
         <div class="project-metrics">
           <div class="metric-badge">
             <span class="metric-value">88%</span>
-            <span class="metric-label" data-i18n="proj3_m1">预测准确率</span>
+            <span class="metric-label" data-i18n="proj2_m1">预测准确率</span>
           </div>
           <div class="metric-badge badge-green">
             <span class="metric-value">PCA</span>
-            <span class="metric-label" data-i18n="proj3_m2">降维优化</span>
+            <span class="metric-label" data-i18n="proj2_m3">降维优化</span>
           </div>
         </div>
       </div>
       <div class="project-footer">
         <div class="project-highlights">
-          <span class="highlight" data-i18n="proj3_h1">PCA 降维</span>
-          <span class="highlight" data-i18n="proj3_h2">特征选择</span>
-          <span class="highlight teal" data-i18n="proj3_h3">数据归一化</span>
-          <span class="highlight green" data-i18n="proj3_h4">SGD 优化</span>
-          <span class="highlight" data-i18n="proj3_h5">损失曲线分析</span>
+          <span class="highlight" data-i18n="proj2_h2">PCA 降维</span>
+          <span class="highlight" data-i18n="proj2_h3">特征选择</span>
+          <span class="highlight teal" data-i18n="proj2_h4">数据归一化</span>
+          <span class="highlight green" data-i18n="proj2_h5">SGD 优化</span>
+          <span class="highlight" data-i18n="proj2_h6">损失曲线分析</span>
+        </div>
+      </div>
+    </div>
+    <div class="project-card">
+      <div class="project-cover">
+        <img src="assets/proj3-cover.jpg" alt="虚拟试穿系统">
+      </div>
+      <div class="project-header">
+        <div class="project-icon icon-violet">👗</div>
+        <div class="project-header-text">
+          <div class="project-title" data-i18n="proj3_title">基于深度学习的智能试衣系统</div>
+          <div class="project-date">PYTHON · PYTORCH · GRADIO · VITON-HD · DRESSCODE</div>
+        </div>
+      </div>
+      <div class="project-body">
+        <div class="project-desc" data-i18n="proj3_desc">针对传统虚拟试衣技术的颜色失真、自我遮挡生成效果差等问题，基于 Python 开发轻量化智能试衣系统。整合 ATR 与 LIP 模型完成人体解析，结合 OpenPose 检测 17 个骨架关键点，搭建 VITON-HD 与 DressCode 双生成模型。</div>
+        <div class="project-metrics">
+          <div class="metric-badge">
+            <span class="metric-value">&lt;2min</span>
+            <span class="metric-label" data-i18n="proj3_m1">推理时间</span>
+          </div>
+          <div class="metric-badge badge-green">
+            <span class="metric-value">4GB</span>
+            <span class="metric-label" data-i18n="proj3_m2">最低显存</span>
+          </div>
+          <div class="metric-badge badge-teal">
+            <span class="metric-value">17</span>
+            <span class="metric-label" data-i18n="proj3_m3">关键点检测</span>
+          </div>
+        </div>
+      </div>
+      <div class="project-footer">
+        <div class="project-highlights">
+          <span class="highlight" data-i18n="proj3_h1">扩散模型</span>
+          <span class="highlight teal" data-i18n="proj3_h4">人体姿态估计</span>
+          <span class="highlight green" data-i18n="proj3_h5">模型量化</span>
+          <span class="highlight" data-i18n="proj3_h6">流场增强自注意力</span>
+          <span class="highlight teal">Gradio UI</span>
         </div>
       </div>
     </div>
@@ -1620,18 +1620,18 @@
     skill_cat1: '编程语言', skill_cat2: '深度学习框架', skill_cat3: '数据处理与可视化', skill_cat4: '数学基础',
     skill_m1: '高等数学', skill_m2: '线性代数', skill_m3: '概率论', skill_m4: '数学建模',
     projects_title: '项目经历',
-    proj1_title: '基于深度学习的智能试衣系统',
-    proj1_desc: '针对传统虚拟试衣技术的颜色失真、自我遮挡生成效果差等问题，基于 Python 开发轻量化智能试衣系统。整合 ATR 与 LIP 模型完成人体解析，结合 OpenPose 检测 17 个骨架关键点，搭建 VITON-HD 与 DressCode 双生成模型。',
-    proj1_m1: '推理时间', proj1_m2: '最低显存', proj1_m3: '关键点检测',
-    proj1_h1: '扩散模型', proj1_h2: '人体姿态估计', proj1_h3: '模型量化', proj1_h4: '流场增强自注意力',
-    proj2_title: '基于卷积神经网络的花卉图像分类',
-    proj2_desc: '针对多类别花卉图像数据集，采用随机旋转、CutMix 等数据增强技术，扩充数据集规模达 50%。对比 ResNet18、AlexNet 等经典及自研模型，运用半监督学习使训练效率提高 30%，借助 Grad-CAM 可视化分析模型决策依据。',
-    proj2_m1: '分类准确率', proj2_m3: '训练效率',
-    proj2_h2: '数据增强', proj2_h3: '半监督学习',
-    proj3_title: '基于 PCA 主成分分析的天气情况预测',
-    proj3_desc: '从海量天气数据中运用 PCA 主成分分析进行降维，通过相关性分析筛选关键特征，有效降低数据维度。构建全连接神经网络模型，采用均方误差损失函数和随机梯度下降优化器，通过损失曲线监控训练效果。',
-    proj3_m1: '预测准确率', proj3_m2: '降维优化',
-    proj3_h1: 'PCA 降维', proj3_h2: '特征选择', proj3_h3: '数据归一化', proj3_h4: 'SGD 优化', proj3_h5: '损失曲线分析',
+    proj1_title: '基于卷积神经网络的花卉图像分类',
+    proj1_desc: '针对多类别花卉图像数据集，采用随机旋转、CutMix 等数据增强技术，扩充数据集规模达 50%。对比 ResNet18、AlexNet 等经典及自研模型，运用半监督学习使训练效率提高 30%，借助 Grad-CAM 可视化分析模型决策依据。',
+    proj1_m1: '分类准确率', proj1_m3: '训练效率',
+    proj1_h2: '数据增强', proj1_h3: '半监督学习',
+    proj2_title: '基于 PCA 主成分分析的天气情况预测',
+    proj2_desc: '从海量天气数据中运用 PCA 主成分分析进行降维，通过相关性分析筛选关键特征，有效降低数据维度。构建全连接神经网络模型，采用均方误差损失函数和随机梯度下降优化器，通过损失曲线监控训练效果。',
+    proj2_m1: '预测准确率', proj2_m3: '降维优化',
+    proj2_h2: 'PCA 降维', proj2_h3: '特征选择', proj2_h4: '数据归一化', proj2_h5: 'SGD 优化', proj2_h6: '损失曲线分析',
+    proj3_title: '基于深度学习的智能试衣系统',
+    proj3_desc: '针对传统虚拟试衣技术的颜色失真、自我遮挡生成效果差等问题，基于 Python 开发轻量化智能试衣系统。整合 ATR 与 LIP 模型完成人体解析，结合 OpenPose 检测 17 个骨架关键点，搭建 VITON-HD 与 DressCode 双生成模型。',
+    proj3_m1: '推理时间', proj3_m2: '最低显存', proj3_m3: '关键点检测',
+    proj3_h1: '扩散模型', proj3_h4: '人体姿态估计', proj3_h5: '模型量化', proj3_h6: '流场增强自注意力',
     awards_title: '获奖经历',
     award1: '第七届全国大学生数学竞赛暨数学精英挑战赛 · <strong>国家级一等奖</strong>',
     award2: '全国大学生高新技术竞赛——数学竞赛 · <strong>国家级一等奖</strong>',
@@ -1674,18 +1674,18 @@
     skill_cat1: 'Languages', skill_cat2: 'Deep Learning', skill_cat3: 'Data & Visualization', skill_cat4: 'Mathematics',
     skill_m1: 'Calculus', skill_m2: 'Linear Algebra', skill_m3: 'Probability', skill_m4: 'Math Modeling',
     projects_title: 'Projects',
-    proj1_title: 'Deep Learning-Based Virtual Try-On System',
-    proj1_desc: 'Developed a lightweight virtual try-on system to address color distortion and self-occlusion issues. Integrated ATR & LIP for human parsing, OpenPose for 17-keypoint skeleton detection, and built dual generation models with VITON-HD and DressCode.',
-    proj1_m1: 'Inference', proj1_m2: 'Min VRAM', proj1_m3: 'Keypoints',
-    proj1_h1: 'Diffusion Model', proj1_h2: 'Pose Estimation', proj1_h3: 'Quantization', proj1_h4: 'Flow-Enhanced Attention',
-    proj2_title: 'CNN-Based Flower Image Classification',
-    proj2_desc: 'Applied data augmentation (random rotation, CutMix) to expand the dataset by 50%. Compared ResNet18, AlexNet, and custom models. Semi-supervised learning improved training efficiency by 30%. Used Grad-CAM for decision visualization.',
-    proj2_m1: 'Accuracy', proj2_m3: 'Efficiency',
-    proj2_h2: 'Data Augmentation', proj2_h3: 'Semi-Supervised',
-    proj3_title: 'PCA-Based Weather Prediction',
-    proj3_desc: 'Applied PCA for dimensionality reduction on large-scale weather data. Selected key features via correlation analysis. Built a fully-connected neural network with MSE loss and SGD optimizer, monitored via loss curves.',
-    proj3_m1: 'Accuracy', proj3_m2: 'PCA Reduction',
-    proj3_h1: 'PCA', proj3_h2: 'Feature Selection', proj3_h3: 'Normalization', proj3_h4: 'SGD', proj3_h5: 'Loss Analysis',
+    proj1_title: 'CNN-Based Flower Image Classification',
+    proj1_desc: 'Applied data augmentation (random rotation, CutMix) to expand the dataset by 50%. Compared ResNet18, AlexNet, and custom models. Semi-supervised learning improved training efficiency by 30%. Used Grad-CAM for decision visualization.',
+    proj1_m1: 'Accuracy', proj1_m3: 'Efficiency',
+    proj1_h2: 'Data Augmentation', proj1_h3: 'Semi-Supervised',
+    proj2_title: 'PCA-Based Weather Prediction',
+    proj2_desc: 'Applied PCA for dimensionality reduction on large-scale weather data. Selected key features via correlation analysis. Built a fully-connected neural network with MSE loss and SGD optimizer, monitored via loss curves.',
+    proj2_m1: 'Accuracy', proj2_m3: 'PCA Reduction',
+    proj2_h2: 'PCA', proj2_h3: 'Feature Selection', proj2_h4: 'Normalization', proj2_h5: 'SGD', proj2_h6: 'Loss Analysis',
+    proj3_title: 'Deep Learning-Based Virtual Try-On System',
+    proj3_desc: 'Developed a lightweight virtual try-on system to address color distortion and self-occlusion issues. Integrated ATR & LIP for human parsing, OpenPose for 17-keypoint skeleton detection, and built dual generation models with VITON-HD and DressCode.',
+    proj3_m1: 'Inference', proj3_m2: 'Min VRAM', proj3_m3: 'Keypoints',
+    proj3_h1: 'Diffusion Model', proj3_h4: 'Pose Estimation', proj3_h5: 'Quantization', proj3_h6: 'Flow-Enhanced Attention',
     awards_title: 'Awards',
     award1: '7th National University Math Competition — Elite Challenge · <strong>National 1st Prize</strong>',
     award2: 'National Hi-Tech Competition — Math · <strong>National 1st Prize</strong>',
