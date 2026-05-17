@@ -10,15 +10,15 @@
 <meta property="og:title" content="那不勒斯的萤火 | 杨天豪">
 <meta property="og:description" content="哈工大计算机技术硕士在读，相信每一行代码都该有温度。">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://napoli-firefly.dev">
-<meta property="og:image" content="https://napoli-firefly.dev/og-image.png">
+<meta property="og:url" content="https://luminaryth.github.io">
+<meta property="og:image" content="https://luminaryth.github.io/og-image.png">
 <meta property="og:locale" content="zh_CN">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="那不勒斯的萤火 | 杨天豪">
 <meta name="twitter:description" content="哈工大计算机技术硕士在读，相信每一行代码都该有温度。">
-<link rel="canonical" href="https://napoli-firefly.dev">
+<link rel="canonical" href="https://luminaryth.github.io">
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext x='16' y='24' text-anchor='middle' font-size='24'%3E%E2%9C%A6%3C/text%3E%3C/svg%3E">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"杨天豪","alumniOf":[{"@type":"CollegeOrUniversity","name":"哈尔滨工业大学"},{"@type":"CollegeOrUniversity","name":"重庆邮电大学"}],"knowsAbout":["深度学习","PyTorch","数学建模","计算机视觉"],"url":"https://napoli-firefly.dev"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"杨天豪","alumniOf":[{"@type":"CollegeOrUniversity","name":"哈尔滨工业大学"},{"@type":"CollegeOrUniversity","name":"重庆邮电大学"}],"knowsAbout":["深度学习","PyTorch","数学建模","计算机视觉"],"url":"https://luminaryth.github.io"}</script>
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700;900&family=JetBrains+Mono:wght@400;600&family=Playfair+Display:wght@700;900&display=swap');
 
@@ -724,7 +724,7 @@
   /* ===== SKILLS ===== */
   .skills-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 16px;
   }
   .skill-card {
@@ -972,6 +972,10 @@
     border-color: var(--firefly);
     transform: translateX(3px);
   }
+  .award-item.gold   { background: linear-gradient(135deg, rgba(232,197,71,0.18), rgba(232,197,71,0.04)); border-color: rgba(232,197,71,0.40); }
+  .award-item.silver { background: linear-gradient(135deg, rgba(192,192,192,0.18), rgba(192,192,192,0.04)); border-color: rgba(192,192,192,0.40); }
+  .award-item.bronze { background: linear-gradient(135deg, rgba(205,127,50,0.18), rgba(205,127,50,0.04)); border-color: rgba(205,127,50,0.40); }
+
   .award-icon {
     font-size: 20px;
     flex-shrink: 0;
@@ -1490,6 +1494,16 @@
         </div>
       </div>
     </div>
+
+    <div class="skill-card">
+      <div class="skill-category" data-i18n="skill_cat5">开发工具</div>
+      <div class="skill-tags">
+        <span class="skill-tag tool">Git</span>
+        <span class="skill-tag tool">Linux</span>
+        <span class="skill-tag tool">Docker</span>
+      </div>
+    </div>
+
   </div>
 </section>
 
@@ -1501,43 +1515,43 @@
   </div>
   <div class="awards-grid reveal">
 
-    <div class="award-item">
+    <div class="award-item gold">
       <div class="award-icon">🥇</div>
       <div class="award-text" data-i18n="award1">第七届全国大学生数学竞赛暨数学精英挑战赛 · <strong>国家级一等奖</strong></div>
     </div>
-    <div class="award-item">
+    <div class="award-item gold">
       <div class="award-icon">🥇</div>
       <div class="award-text" data-i18n="award2">全国大学生高新技术竞赛——数学竞赛 · <strong>国家级一等奖</strong></div>
     </div>
-    <div class="award-item">
+    <div class="award-item gold">
       <div class="award-icon">🥈</div>
       <div class="award-text" data-i18n="award3">第七届全国大学生数学竞赛暨数学精英挑战赛 · <strong>国家级二等奖</strong></div>
     </div>
-    <div class="award-item">
+    <div class="award-item gold">
       <div class="award-icon">🥈</div>
       <div class="award-text" data-i18n="award4">"中研杯"全国大学生英语能力竞赛词汇大赛 · <strong>国家级二等奖</strong></div>
     </div>
-    <div class="award-item">
+    <div class="award-item gold">
       <div class="award-icon">🥉</div>
       <div class="award-text" data-i18n="award5">计算机技能应用赛——C 语言组 · <strong>国家级三等奖</strong></div>
     </div>
-    <div class="award-item">
+    <div class="award-item silver">
       <div class="award-icon">🏆</div>
       <div class="award-text" data-i18n="award6">第十六届全国大学生数学竞赛非数学类 · <strong>省级一等奖</strong></div>
     </div>
-    <div class="award-item">
+    <div class="award-item silver">
       <div class="award-icon">🏆</div>
       <div class="award-text" data-i18n="award7">第十五届全国大学生数学竞赛非数学类 · <strong>省级二等奖</strong></div>
     </div>
-    <div class="award-item">
+    <div class="award-item silver">
       <div class="award-icon">🏆</div>
       <div class="award-text" data-i18n="award8">第十四届 Mathorcup 数学建模竞赛 · <strong>省级三等奖</strong></div>
     </div>
-    <div class="award-item">
+    <div class="award-item bronze">
       <div class="award-icon">🏆</div>
       <div class="award-text" data-i18n="award9">互联网+大学生创新创业大赛 · <strong>校级一等奖</strong></div>
     </div>
-    <div class="award-item">
+    <div class="award-item bronze">
       <div class="award-icon">🏆</div>
       <div class="award-text" data-i18n="award10">ACM 国际大学生程序设计竞赛 · <strong>校级三等奖</strong></div>
     </div>
@@ -1583,7 +1597,7 @@
       <svg viewBox="0 0 24 24"><path d="M2 4l10 8L22 4v1l-10 8L2 5V4zm0 3l10 8 10-8v2l-10 8L2 9V7z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
     </a>
   </div>
-  <p class="footer-quote" data-i18n="footer_quote">"每一只萤火虫，都是黑夜里不灭的微光。"</p>
+  <p class="footer-quote" data-i18n="footer_quote">"规格严格，功夫到家。"</p>
   <div class="footer-name">Napoli's Firefly</div>
   <div class="footer-year" data-i18n="footer_year">© 2026 杨天豪 · 保留所有权利</div>
 </footer>
@@ -1618,6 +1632,7 @@
     edu_cqupt_detail: 'GPA <strong>3.43 / 4.0</strong>（专业前 5%）<br>主修课程：Python 程序设计（97）、数据结构（93）、操作系统、计算机网络、算法设计与分析、数据库原理、数据挖掘',
     skills_title: '技能栈',
     skill_cat1: '编程语言', skill_cat2: '深度学习框架', skill_cat3: '数据处理与可视化', skill_cat4: '数学基础',
+    skill_cat5: '开发工具',
     skill_m1: '高等数学', skill_m2: '线性代数', skill_m3: '概率论', skill_m4: '数学建模',
     projects_title: '项目经历',
     proj1_title: '基于卷积神经网络的花卉图像分类',
@@ -1648,7 +1663,7 @@
     skill_m5: '离散数学',
     contact_title: '联系我',
     contact_email_label: '邮箱',
-    footer_quote: '"每一只萤火虫，都是黑夜里不灭的微光。"',
+    footer_quote: '"规格严格，功夫到家。"',
     footer_year: '© 2026 杨天豪 · 保留所有权利',
     back_to_top: '返回顶部'
   };
@@ -1675,6 +1690,7 @@
     edu_cqupt_detail: 'GPA <strong>3.43 / 4.0</strong> (Top 5%)<br>Key Courses: Python Programming (97), Data Structures (93), OS, Computer Networks, Algorithm Design & Analysis, Database Principles, Data Mining',
     skills_title: 'Tech Stack',
     skill_cat1: 'Languages', skill_cat2: 'Deep Learning', skill_cat3: 'Data & Visualization', skill_cat4: 'Mathematics',
+    skill_cat5: 'Dev Tools',
     skill_m1: 'Calculus', skill_m2: 'Linear Algebra', skill_m3: 'Probability', skill_m4: 'Math Modeling',
     projects_title: 'Projects',
     proj1_title: 'CNN-Based Flower Image Classification',
@@ -1705,7 +1721,7 @@
     skill_m5: 'Discrete Math',
     contact_title: 'Get In Touch',
     contact_email_label: 'Email',
-    footer_quote: '"Every firefly is an inextinguishable glimmer in the dark."',
+    footer_quote: '"Strict Standards, Solid Skills."',
     footer_year: '© 2026 Tianhao Yang · All Rights Reserved',
     back_to_top: 'Back to Top'
   };
